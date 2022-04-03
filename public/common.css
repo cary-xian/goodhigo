@@ -1,0 +1,128 @@
+/* 480*800、 720*1280、 1080*1920 */
+/* 移动端屏幕适配 */
+@media screen and (max-width: 1280px){
+    #switch{
+        display: block;
+    }
+    #switch ul li a{
+        text-decoration: none;
+        color:#000;
+        cursor: pointer;
+    }
+    #switch ul li a:hover{
+        color:red;
+    }
+    #switch ul li i,
+    #map3{
+        color:#000;
+    }
+    #pagefoot{
+         width: 100% !important;
+    }
+    .item{
+        width: 480px !important;
+    }
+    .content{
+        width: 480px !important;
+    }
+    .title a{
+        font-size: 16px !important;
+    }
+    .content p{
+        font-size: 10px !important;
+    }
+    #managebar{
+        display: none;
+    }
+     #logo{
+       width: 200px;
+       height: 80px;
+     }
+     #search{
+        width: 500px;
+        height: 50px;
+     }
+     #search_btn{
+        font-size: 0.65rem;
+     }
+}
+@media screen and (max-width: 1024px){
+      #switch{
+      display: block;
+      }
+      #switch ul li a{
+        text-decoration: none;
+        color:#000;
+        cursor: pointer;
+    }
+    .item{
+        width: 310px !important;
+    }
+    .content{
+        width: 310px !important;
+    }
+    #pagefoot{
+        width: 100% !important;
+    }
+    .title a{
+        font-size: 14px !important;
+    }
+    .content p{
+        font-size: 8px !important;
+    }
+    #switch ul li a:hover{
+        color:red;
+    }
+    #switch ul li i,
+    #map3{
+        color:#000;
+    }
+      #managebar{
+        display: none;
+      }
+      #logo{
+        display: none;
+       }
+      #search{
+          width: 500px;
+          height: 50px;
+       }
+      #search_btn{
+           font-size: 0.65rem;
+      }
+} 
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+}
+
+/* 版心 */
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+/* 缩放(除firefox全系列) */
+.zoom_unless_firefox{
+    zoom:.5;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?njsom6');
+    src:  url('fonts/icomoon.eot?njsom6#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?njsom6') format('truetype'),
+      url('fonts/icomoon.woff?njsom6') format('woff'),
+      url('fonts/icomoon.svg?njsom6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+ /* 动画 */
+ .action{
+    
+ }
+ .layout{
+     
+ }
+ 
